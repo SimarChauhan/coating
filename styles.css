@@ -379,6 +379,26 @@ h3 {
   transition: transform 0.24s ease, box-shadow 0.24s ease;
 }
 
+.service-card--media {
+  padding: 0;
+  overflow: hidden;
+}
+
+.service-card__media img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
+.service-card__content {
+  padding: 1rem 1rem 1.1rem;
+}
+
+.service-card__content p {
+  margin: 0;
+}
+
 .service-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 16px 30px rgba(4, 47, 114, 0.14);
