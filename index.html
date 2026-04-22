@@ -3,27 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atlantic Coating Experts | Premium Residential & Commercial Coatings</title>
+    <title>Atlantic Coating Experts | Premium Coating Contractors</title>
     <meta
       name="description"
-      content="Atlantic Coating Experts delivers high-performance interior, exterior, and specialty coating services with clean execution and long-lasting results."
+      content="Atlantic Coating Experts provides interior and exterior painting, deck and fence stain, kitchen cabinet painting, driveway sealing, and pressure washing in New Brunswick."
     />
     <link rel="canonical" href="https://atlanticcoatingexperts.ca/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Atlantic Coating Experts" />
     <meta
       property="og:description"
-      content="Premium residential and commercial coating services across Greater Moncton and surrounding communities."
+      content="Interior and exterior painting, deck and fence stain, kitchen cabinet painting, driveway sealing, and pressure washing."
     />
     <meta property="og:url" content="https://atlanticcoatingexperts.ca/" />
-    <meta property="og:image" content="https://atlanticcoatingexperts.ca/assets/atlantic-coating-logo.jpg" />
+    <meta property="og:image" content="https://atlanticcoatingexperts.ca/assets/atlantic-coating-logo.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Atlantic Coating Experts" />
-    <meta
-      name="twitter:description"
-      content="Durable finishes and premium coating services for homes and businesses."
-    />
-    <meta name="twitter:image" content="https://atlanticcoatingexperts.ca/assets/atlantic-coating-logo.jpg" />
+    <meta name="twitter:description" content="Where quality meets perfection." />
+    <meta name="twitter:image" content="https://atlanticcoatingexperts.ca/assets/atlantic-coating-logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +29,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-page="home">
     <div class="top-strip">
       <div class="container top-strip__content">
         <p>Licensed & Insured Coating Specialists</p>
@@ -42,29 +39,29 @@
 
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#home" aria-label="Atlantic Coating Experts home">
-          <img src="assets/atlantic-coating-logo.jpg" alt="Atlantic Coating Experts logo" />
+        <a class="brand" href="index.html" aria-label="Atlantic Coating Experts home">
+          <img src="assets/atlantic-coating-logo.png" alt="Atlantic Coating Experts logo" />
         </a>
 
-        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle menu">
           <span></span>
           <span></span>
           <span></span>
         </button>
 
         <nav id="mainNav" class="main-nav" aria-label="Primary">
-          <a href="#services">Services</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#why-us">Why Us</a>
-          <a href="#process">Process</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#contact" class="btn btn--small">Get a Free Quote</a>
+          <a href="index.html" data-nav="home">Home</a>
+          <a href="about.html" data-nav="about">About</a>
+          <a href="services.html" data-nav="services">Services</a>
+          <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+          <a href="careers.html" data-nav="careers">Careers</a>
+          <a href="quote.html" class="btn btn--small" data-nav="quote">Get a Free Quote</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section id="home" class="hero">
+      <section class="hero">
         <div class="hero__bg-orb hero__bg-orb--one"></div>
         <div class="hero__bg-orb hero__bg-orb--two"></div>
         <div class="container hero__grid">
@@ -72,13 +69,13 @@
             <p class="eyebrow">Atlantic Canada Trusted Coating Team</p>
             <h1>Durable Finishes. Clean Craftsmanship. Zero Stress.</h1>
             <p>
-              From residential repaints to high-performance commercial coatings, Atlantic Coating Experts
-              delivers premium prep, precision application, and dependable timelines.
+              From interior and exterior painting to deck and fence stain, kitchen cabinet painting, driveway sealing,
+              and pressure washing, Atlantic Coating Experts delivers premium prep and dependable timelines.
             </p>
-            <p class="hero__brand-quote">“Where quality meets perfection.”</p>
+            <p class="hero__brand-quote">"Where quality meets perfection."</p>
             <div class="hero__actions">
-              <a href="#contact" class="btn">Book Your Free Estimate</a>
-              <a href="#services" class="btn btn--ghost">Explore Services</a>
+              <a href="quote.html" class="btn">Book Your Free Estimate</a>
+              <a href="services.html" class="btn btn--ghost">Explore Services</a>
             </div>
             <ul class="hero__highlights">
               <li>2-Year Workmanship Warranty</li>
@@ -116,98 +113,67 @@
         </div>
       </section>
 
-      <section id="services" class="section section--light">
+      <section class="section section--light">
         <div class="container">
           <header class="section-head reveal">
             <p class="eyebrow">Our Services</p>
-            <h2>Specialty Coatings Built for Atlantic Conditions</h2>
+            <h2>Trusted Painting and Property Care Services</h2>
           </header>
-
           <div class="service-grid">
             <article class="service-card reveal">
-              <h3>Residential Interior Coatings</h3>
-              <p>Flawless wall and ceiling finishes designed for comfort, cleanliness, and style.</p>
+              <h3>Interior & Exterior Painting</h3>
+              <p>Clean, long-lasting finishes for walls, siding, trim, and other painted surfaces.</p>
             </article>
             <article class="service-card reveal">
-              <h3>Exterior Protection Systems</h3>
-              <p>Weather-resistant coatings that defend against moisture, salt air, and UV exposure.</p>
+              <h3>Deck & Fence Stain</h3>
+              <p>Protective staining systems that improve appearance and guard wood against weather exposure.</p>
             </article>
             <article class="service-card reveal">
-              <h3>Commercial Recoating</h3>
-              <p>Low-disruption scheduling and high-traffic durability for offices, retail, and facilities.</p>
+              <h3>Kitchen Cabinet Painting</h3>
+              <p>Smooth cabinet refinishing that refreshes kitchens without full cabinet replacement.</p>
             </article>
             <article class="service-card reveal">
-              <h3>Epoxy & Concrete Coatings</h3>
-              <p>Garage, basement, and industrial-grade floor systems with exceptional wear performance.</p>
+              <h3>Driveway Sealing</h3>
+              <p>Surface sealing that helps reduce wear, moisture damage, and early cracking.</p>
             </article>
             <article class="service-card reveal">
-              <h3>Cabinet & Trim Refinishing</h3>
-              <p>Factory-smooth refinishing that revives kitchens, millwork, and custom wood elements.</p>
+              <h3>Pressure Washing</h3>
+              <p>Professional cleaning for siding, driveways, decks, and exterior property surfaces.</p>
             </article>
-            <article class="service-card reveal">
-              <h3>Surface Prep & Repair</h3>
-              <p>Patch, sand, prime, seal, and protect for a finish that lasts beyond a single season.</p>
-            </article>
+          </div>
+          <div class="section-cta reveal">
+            <a href="services.html" class="btn">View All Services</a>
           </div>
         </div>
       </section>
 
-      <section id="gallery" class="section">
+      <section class="section">
         <div class="container">
           <header class="section-head reveal">
-            <p class="eyebrow">Featured Work</p>
-            <h2>AI Concept Visuals for Common Project Types</h2>
+            <p class="eyebrow">Featured Projects</p>
+            <h2>Recent Work Across New Brunswick Properties</h2>
           </header>
-
-          <div class="gallery-grid">
+          <div class="gallery-grid gallery-grid--three">
             <figure class="gallery-card reveal">
-              <img src="assets/ai-hero-exterior.jpg" alt="Exterior coating project concept" loading="lazy" />
-              <figcaption>Exterior Protection System</figcaption>
+              <img src="assets/ai-interior-coating.jpg" alt="Interior coating project" loading="lazy" />
+              <figcaption>Interior Transformation</figcaption>
             </figure>
             <figure class="gallery-card reveal">
-              <img src="assets/ai-interior-coating.jpg" alt="Interior coating project concept" loading="lazy" />
-              <figcaption>Interior Recoating Finish</figcaption>
+              <img src="assets/ai-epoxy-floor.jpg" alt="Epoxy floor project" loading="lazy" />
+              <figcaption>Epoxy Floor System</figcaption>
             </figure>
             <figure class="gallery-card reveal">
-              <img src="assets/ai-epoxy-floor.jpg" alt="Epoxy floor coating concept" loading="lazy" />
-              <figcaption>Epoxy Garage Floor System</figcaption>
+              <img src="assets/ai-commercial-coating.jpg" alt="Exterior cleaning and prep project" loading="lazy" />
+              <figcaption>Pressure Washing & Surface Prep</figcaption>
             </figure>
-            <figure class="gallery-card reveal">
-              <img src="assets/ai-commercial-coating.jpg" alt="Commercial coating project concept" loading="lazy" />
-              <figcaption>Commercial Recoating</figcaption>
-            </figure>
+          </div>
+          <div class="section-cta reveal">
+            <a href="portfolio.html" class="btn btn--ghost">See Full Portfolio</a>
           </div>
         </div>
       </section>
 
-      <section id="why-us" class="section why-us">
-        <div class="container why-us__grid">
-          <div class="reveal">
-            <p class="eyebrow">Why Atlantic Coating Experts</p>
-            <h2>Premium Standards Without Premium Headaches</h2>
-            <p>
-              We run each project with transparent communication, exact prep protocols, and detail-focused finishing.
-              You always know what happens next and when the job will be complete.
-            </p>
-          </div>
-          <div class="benefit-list">
-            <article class="benefit reveal">
-              <h3>Dedicated Project Lead</h3>
-              <p>A single point of contact from estimate to final walkthrough.</p>
-            </article>
-            <article class="benefit reveal">
-              <h3>Jobsite Respect Policy</h3>
-              <p>Daily cleanup, furniture protection, and clean transitions room-to-room.</p>
-            </article>
-            <article class="benefit reveal">
-              <h3>Verified Product Systems</h3>
-              <p>Only tested primers and topcoats suited for your substrate and environment.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="process" class="section section--light">
+      <section class="section section--light">
         <div class="container">
           <header class="section-head reveal">
             <p class="eyebrow">Simple 4-Step Process</p>
@@ -239,13 +205,12 @@
         </div>
       </section>
 
-      <section id="reviews" class="section">
+      <section class="section">
         <div class="container">
           <header class="section-head reveal">
             <p class="eyebrow">Client Feedback</p>
             <h2>Trusted by Homeowners and Businesses</h2>
           </header>
-
           <div class="review-grid">
             <article class="review reveal">
               <p>
@@ -272,63 +237,40 @@
         </div>
       </section>
 
-      <section id="contact" class="section section--light contact">
-        <div class="container contact__grid">
-          <div class="contact__copy reveal">
-            <p class="eyebrow">Get Started</p>
-            <h2>Request Your Free Coating Estimate</h2>
-            <p>
-              Tell us about your project and we will follow up within one business day to schedule your estimate.
-            </p>
-            <ul>
-              <li>Phone: <a href="tel:+15063815830">+1 (506) 381-5830</a></li>
-              <li>
-                Email:
-                <a href="mailto:atlanticrenovationexperts@gmail.com">atlanticrenovationexperts@gmail.com</a>
-              </li>
-              <li>Service Area: Greater Moncton and surrounding communities</li>
-            </ul>
+      <section class="section section--light">
+        <div class="container cta-band reveal">
+          <div>
+            <p class="eyebrow">Ready to Start?</p>
+            <h2>Request Your Free Coating Estimate Today</h2>
+            <p>Fast response, clear pricing, and premium results built for Atlantic weather conditions.</p>
           </div>
-
-          <form class="quote-form reveal" id="quoteForm">
-            <label>
-              Full Name
-              <input type="text" name="name" placeholder="Your name" required />
-            </label>
-            <label>
-              Phone Number
-              <input type="tel" name="phone" placeholder="+1 (506) 381-5830" required />
-            </label>
-            <label>
-              Email Address
-              <input type="email" name="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              Service Needed
-              <select name="service" required>
-                <option value="">Select a service</option>
-                <option>Interior Coating</option>
-                <option>Exterior Coating</option>
-                <option>Commercial Project</option>
-                <option>Epoxy Floor Coating</option>
-                <option>Other</option>
-              </select>
-            </label>
-            <label>
-              Project Details
-              <textarea name="details" rows="4" placeholder="Tell us about your project"></textarea>
-            </label>
-            <button type="submit" class="btn">Send Quote Request</button>
-            <p class="form-note" id="formNote" aria-live="polite"></p>
-          </form>
+          <a href="quote.html" class="btn">Get My Estimate</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer__wrap">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">Atlantic Coating Experts</p>
+          <p>Interior & exterior painting, staining, sealing, and pressure washing in New Brunswick.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="careers.html">Careers</a>
+          <a href="quote.html">Get a Quote</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+        <div>
+          <p><a href="tel:+15063815830">+1 (506) 381-5830</a></p>
+          <p><a href="mailto:atlanticcoatingexperts@gmail.com">atlanticcoatingexperts@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
         <p>© <span id="year"></span> Atlantic Coating Experts. All rights reserved.</p>
-        <a href="#home">Back to Top</a>
       </div>
     </footer>
 
